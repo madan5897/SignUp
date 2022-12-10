@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Inter";
+  background-color: black;
+}
+
+.container_main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+h1 {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+input {
+  border: none;
+  color: white;
+  outline: none;
+}
+hr {
+  margin-bottom: 15px;
+}
+
+.radio-container {
+  margin-bottom: 15px;
+}
+
+button {
+  color: black;
+  background-color: white;
+  padding-block: 10px;
+  width: 80px;
+  margin-top: 25px;
+}
