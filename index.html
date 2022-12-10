@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./download.png" />
+  </head>
+  <body>
+    <div class="container_main">
+      <header>
+        <h1>Signup</h1>
+      </header>
+
+      <main>
+        <form>
+          <input
+            type="text"
+            name="fullname"
+            id="fullname"
+            placeholder="Full Name"
+            required
+          />
+          <hr />
+
+          <input type="email" placeholder="Email" required />
+          <hr />
+
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+            required
+          />
+          <hr />
+
+          <input
+            type="password"
+            name="Confirmpassword"
+            id="Confirmpassword"
+            placeholder="Confirm Password"
+            required
+          />
+          <hr />
+
+          <input type="date" name="date" id="date" required />
+          <hr />
+          <div class="radio-container">
+            <input type="radio" name="tickbox" id="student" required />
+            <label for="Student">Student</label>
+            <input type="radio" name="tickbox" id="Employee" required />
+            <label for="Employee">Employee</label>
+          </div>
+
+          <div class="terms">
+            <input type="checkbox" name="terms" id="terms" />
+            <span>I agree to all the terms and conditions</span>
+          </div>
+
+          <button type="submit">Submit</button>
+        </form>
+      </main>
+
+      <footer></footer>
+    </div>
+  </body>
+</html>
